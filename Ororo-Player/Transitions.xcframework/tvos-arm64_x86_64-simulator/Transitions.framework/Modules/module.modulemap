@@ -1,0 +1,10 @@
+framework module Transitions {
+  umbrella header "Transitions.h"
+  export *
+
+  module * { export * }
+}
+
+module Transitions.Swift {
+  header "Transitions-Swift.h"
+}

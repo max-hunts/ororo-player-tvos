@@ -1,0 +1,8 @@
+// Copy this file to Config/Local.xcconfig and fill in your own values.
+// Local.xcconfig is git-ignored, so your team ID never ends up in a commit.
+
+// Your Apple Developer team ID (Xcode > Settings > Accounts).
+DEVELOPMENT_TEAM = ABCDE12345
+
+// Reverse-DNS prefix you own. The app becomes $(BUNDLE_ID_PREFIX).Ororo-Player.
+BUNDLE_ID_PREFIX = com.yourname

@@ -1,0 +1,3362 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "Transitions",
+    "printedName": "Transitions",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "LinkedList",
+        "printedName": "LinkedList",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "LinkedListNode",
+            "printedName": "LinkedListNode",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(value:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LinkedListNode",
+                    "printedName": "Transitions.LinkedList<τ_0_0>.LinkedListNode<τ_1_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_1_0"
+                      }
+                    ],
+                    "usr": "s:11Transitions10LinkedListC0bC4NodeC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:11Transitions10LinkedListC0bC4NodeC5valueAEyx_qd__Gqd___tcfc",
+                "mangledName": "$s11Transitions10LinkedListC0bC4NodeC5valueAEyx_qd__Gqd___tcfc",
+                "moduleName": "Transitions",
+                "genericSig": "<τ_0_0, τ_1_0>",
+                "sugared_genericSig": "<T, T>",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:11Transitions10LinkedListC0bC4NodeC",
+            "mangledName": "$s11Transitions10LinkedListC0bC4NodeC",
+            "moduleName": "Transitions",
+            "genericSig": "<τ_0_0, τ_1_0>",
+            "sugared_genericSig": "<T, T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "last",
+            "printedName": "last",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Transitions.LinkedList<τ_0_0>.LinkedListNode<τ_0_0>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LinkedListNode",
+                    "printedName": "Transitions.LinkedList<τ_0_0>.LinkedListNode<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:11Transitions10LinkedListC0bC4NodeC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11Transitions10LinkedListC4lastAC0bC4NodeCyx_xGSgvp",
+            "mangledName": "$s11Transitions10LinkedListC4lastAC0bC4NodeCyx_xGSgvp",
+            "moduleName": "Transitions",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Transitions.LinkedList<τ_0_0>.LinkedListNode<τ_0_0>?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LinkedListNode",
+                        "printedName": "Transitions.LinkedList<τ_0_0>.LinkedListNode<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:11Transitions10LinkedListC0bC4NodeC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11Transitions10LinkedListC4lastAC0bC4NodeCyx_xGSgvg",
+                "mangledName": "$s11Transitions10LinkedListC4lastAC0bC4NodeCyx_xGSgvg",
+                "moduleName": "Transitions",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isEmpty",
+            "printedName": "isEmpty",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11Transitions10LinkedListC7isEmptySbvp",
+            "mangledName": "$s11Transitions10LinkedListC7isEmptySbvp",
+            "moduleName": "Transitions",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11Transitions10LinkedListC7isEmptySbvg",
+                "mangledName": "$s11Transitions10LinkedListC7isEmptySbvg",
+                "moduleName": "Transitions",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "count",
+            "printedName": "count",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11Transitions10LinkedListC5countSivp",
+            "mangledName": "$s11Transitions10LinkedListC5countSivp",
+            "moduleName": "Transitions",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11Transitions10LinkedListC5countSivg",
+                "mangledName": "$s11Transitions10LinkedListC5countSivg",
+                "moduleName": "Transitions",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "append",
+            "printedName": "append(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Transitions10LinkedListC6appendyyxF",
+            "mangledName": "$s11Transitions10LinkedListC6appendyyxF",
+            "moduleName": "Transitions",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "append",
+            "printedName": "append(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LinkedListNode",
+                "printedName": "Transitions.LinkedList<τ_0_0>.LinkedListNode<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:11Transitions10LinkedListC0bC4NodeC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Transitions10LinkedListC6appendyyAC0bC4NodeCyx_xGF",
+            "mangledName": "$s11Transitions10LinkedListC6appendyyAC0bC4NodeCyx_xGF",
+            "moduleName": "Transitions",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "append",
+            "printedName": "append(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LinkedList",
+                "printedName": "Transitions.LinkedList<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:11Transitions10LinkedListC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Transitions10LinkedListC6appendyyACyxGF",
+            "mangledName": "$s11Transitions10LinkedListC6appendyyACyxGF",
+            "moduleName": "Transitions",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeAll",
+            "printedName": "removeAll()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Transitions10LinkedListC9removeAllyyF",
+            "mangledName": "$s11Transitions10LinkedListC9removeAllyyF",
+            "moduleName": "Transitions",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "remove",
+            "printedName": "remove(node:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LinkedListNode",
+                "printedName": "Transitions.LinkedList<τ_0_0>.LinkedListNode<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:11Transitions10LinkedListC0bC4NodeC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Transitions10LinkedListC6remove4nodexAC0bC4NodeCyx_xG_tF",
+            "mangledName": "$s11Transitions10LinkedListC6remove4nodexAC0bC4NodeCyx_xG_tF",
+            "moduleName": "Transitions",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11Transitions10LinkedListC11descriptionSSvp",
+            "mangledName": "$s11Transitions10LinkedListC11descriptionSSvp",
+            "moduleName": "Transitions",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11Transitions10LinkedListC11descriptionSSvg",
+                "mangledName": "$s11Transitions10LinkedListC11descriptionSSvg",
+                "moduleName": "Transitions",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "startIndex",
+            "printedName": "startIndex",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LinkedListIndex",
+                "printedName": "Transitions.LinkedListIndex<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:11Transitions15LinkedListIndexV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11Transitions10LinkedListC10startIndexAA0bcE0VyxGvp",
+            "mangledName": "$s11Transitions10LinkedListC10startIndexAA0bcE0VyxGvp",
+            "moduleName": "Transitions",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LinkedListIndex",
+                    "printedName": "Transitions.LinkedListIndex<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:11Transitions15LinkedListIndexV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11Transitions10LinkedListC10startIndexAA0bcE0VyxGvg",
+                "mangledName": "$s11Transitions10LinkedListC10startIndexAA0bcE0VyxGvg",
+                "moduleName": "Transitions",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "endIndex",
+            "printedName": "endIndex",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LinkedListIndex",
+                "printedName": "Transitions.LinkedListIndex<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:11Transitions15LinkedListIndexV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11Transitions10LinkedListC8endIndexAA0bcE0VyxGvp",
+            "mangledName": "$s11Transitions10LinkedListC8endIndexAA0bcE0VyxGvp",
+            "moduleName": "Transitions",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LinkedListIndex",
+                    "printedName": "Transitions.LinkedListIndex<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:11Transitions15LinkedListIndexV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11Transitions10LinkedListC8endIndexAA0bcE0VyxGvg",
+                "mangledName": "$s11Transitions10LinkedListC8endIndexAA0bcE0VyxGvg",
+                "moduleName": "Transitions",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Subscript",
+            "name": "subscript",
+            "printedName": "subscript(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LinkedListIndex",
+                "printedName": "Transitions.LinkedListIndex<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:11Transitions15LinkedListIndexV"
+              }
+            ],
+            "declKind": "Subscript",
+            "usr": "s:11Transitions10LinkedListCyxAA0bC5IndexVyxGcip",
+            "mangledName": "$s11Transitions10LinkedListCyxAA0bC5IndexVyxGcip",
+            "moduleName": "Transitions",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LinkedListIndex",
+                    "printedName": "Transitions.LinkedListIndex<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:11Transitions15LinkedListIndexV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11Transitions10LinkedListCyxAA0bC5IndexVyxGcig",
+                "mangledName": "$s11Transitions10LinkedListCyxAA0bC5IndexVyxGcig",
+                "moduleName": "Transitions",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "index",
+            "printedName": "index(after:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LinkedListIndex",
+                "printedName": "Transitions.LinkedListIndex<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:11Transitions15LinkedListIndexV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LinkedListIndex",
+                "printedName": "Transitions.LinkedListIndex<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:11Transitions15LinkedListIndexV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Transitions10LinkedListC5index5afterAA0bC5IndexVyxGAH_tF",
+            "mangledName": "$s11Transitions10LinkedListC5index5afterAA0bC5IndexVyxGAH_tF",
+            "moduleName": "Transitions",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11Transitions10LinkedListC",
+        "mangledName": "$s11Transitions10LinkedListC",
+        "moduleName": "Transitions",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LinkedListIndex",
+                    "printedName": "Transitions.LinkedListIndex<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:11Transitions15LinkedListIndexV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IndexingIterator",
+                    "printedName": "Swift.IndexingIterator<Transitions.LinkedList<τ_0_0>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LinkedList",
+                        "printedName": "Transitions.LinkedList<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:11Transitions10LinkedListC"
+                      }
+                    ],
+                    "usr": "s:s16IndexingIteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Slice",
+                    "printedName": "Swift.Slice<Transitions.LinkedList<τ_0_0>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LinkedList",
+                        "printedName": "Transitions.LinkedList<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:11Transitions10LinkedListC"
+                      }
+                    ],
+                    "usr": "s:s5SliceV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<Transitions.LinkedList<τ_0_0>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LinkedList",
+                        "printedName": "Transitions.LinkedList<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:11Transitions10LinkedListC"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IndexingIterator",
+                    "printedName": "Swift.IndexingIterator<Transitions.LinkedList<τ_0_0>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LinkedList",
+                        "printedName": "Transitions.LinkedList<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:11Transitions10LinkedListC"
+                      }
+                    ],
+                    "usr": "s:s16IndexingIteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LinkedListIndex",
+        "printedName": "LinkedListIndex",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LinkedListIndex",
+                "printedName": "Transitions.LinkedListIndex<τ_1_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:11Transitions15LinkedListIndexV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LinkedListIndex",
+                "printedName": "Transitions.LinkedListIndex<τ_1_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:11Transitions15LinkedListIndexV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Transitions15LinkedListIndexV2eeoiySbACyqd__G_AEtlFZ",
+            "mangledName": "$s11Transitions15LinkedListIndexV2eeoiySbACyqd__G_AEtlFZ",
+            "moduleName": "Transitions",
+            "genericSig": "<τ_0_0, τ_1_0>",
+            "sugared_genericSig": "<T, T>",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "<",
+            "printedName": "<(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LinkedListIndex",
+                "printedName": "Transitions.LinkedListIndex<τ_1_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:11Transitions15LinkedListIndexV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LinkedListIndex",
+                "printedName": "Transitions.LinkedListIndex<τ_1_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:11Transitions15LinkedListIndexV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Transitions15LinkedListIndexV1loiySbACyqd__G_AEtlFZ",
+            "mangledName": "$s11Transitions15LinkedListIndexV1loiySbACyqd__G_AEtlFZ",
+            "moduleName": "Transitions",
+            "genericSig": "<τ_0_0, τ_1_0>",
+            "sugared_genericSig": "<T, T>",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11Transitions15LinkedListIndexV",
+        "mangledName": "$s11Transitions15LinkedListIndexV",
+        "moduleName": "Transitions",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Transitions",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ModalTransition",
+        "printedName": "ModalTransition",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(flow:params:coordinator:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MainCoordinator",
+                "printedName": "Transitions.MainCoordinator",
+                "usr": "s:11Transitions15MainCoordinatorC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Transitions15ModalTransitionC6handle4flow6params11coordinatoryx_So16UIViewControllerCAA15MainCoordinatorCtAA4FlowRzlF",
+            "mangledName": "$s11Transitions15ModalTransitionC6handle4flow6params11coordinatoryx_So16UIViewControllerCAA15MainCoordinatorCtAA4FlowRzlF",
+            "moduleName": "Transitions",
+            "genericSig": "<τ_0_0 where τ_0_0 : Transitions.Flow>",
+            "sugared_genericSig": "<FlowT where FlowT : Transitions.Flow>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModalTransition",
+                "printedName": "Transitions.ModalTransition",
+                "usr": "s:11Transitions15ModalTransitionC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11Transitions15ModalTransitionCACycfc",
+            "mangledName": "$s11Transitions15ModalTransitionCACycfc",
+            "moduleName": "Transitions",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11Transitions15ModalTransitionC",
+        "mangledName": "$s11Transitions15ModalTransitionC",
+        "moduleName": "Transitions",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "superclassUsr": "s:11Transitions14BaseTransitionC",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "Transitions.BaseTransition"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transition",
+            "printedName": "Transition",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ParametersT",
+                "printedName": "ParametersT",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:11Transitions10TransitionP",
+            "mangledName": "$s11Transitions10TransitionP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Transitions",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Transitions",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PushTransition",
+        "printedName": "PushTransition",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(flow:params:coordinator:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MainCoordinator",
+                "printedName": "Transitions.MainCoordinator",
+                "usr": "s:11Transitions15MainCoordinatorC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Transitions14PushTransitionC6handle4flow6params11coordinatoryx_So16UIViewControllerCAA15MainCoordinatorCtAA4FlowRzlF",
+            "mangledName": "$s11Transitions14PushTransitionC6handle4flow6params11coordinatoryx_So16UIViewControllerCAA15MainCoordinatorCtAA4FlowRzlF",
+            "moduleName": "Transitions",
+            "genericSig": "<τ_0_0 where τ_0_0 : Transitions.Flow>",
+            "sugared_genericSig": "<FlowT where FlowT : Transitions.Flow>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PushTransition",
+                "printedName": "Transitions.PushTransition",
+                "usr": "s:11Transitions14PushTransitionC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11Transitions14PushTransitionCACycfc",
+            "mangledName": "$s11Transitions14PushTransitionCACycfc",
+            "moduleName": "Transitions",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11Transitions14PushTransitionC",
+        "mangledName": "$s11Transitions14PushTransitionC",
+        "moduleName": "Transitions",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "superclassUsr": "s:11Transitions14BaseTransitionC",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "Transitions.BaseTransition"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transition",
+            "printedName": "Transition",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ParametersT",
+                "printedName": "ParametersT",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:11Transitions10TransitionP",
+            "mangledName": "$s11Transitions10TransitionP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Transitions",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RootTransition",
+        "printedName": "RootTransition",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(flow:params:coordinator:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MainCoordinator",
+                "printedName": "Transitions.MainCoordinator",
+                "usr": "s:11Transitions15MainCoordinatorC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Transitions14RootTransitionC6handle4flow6params11coordinatoryx_So16UIViewControllerCAA15MainCoordinatorCtAA4FlowRzlF",
+            "mangledName": "$s11Transitions14RootTransitionC6handle4flow6params11coordinatoryx_So16UIViewControllerCAA15MainCoordinatorCtAA4FlowRzlF",
+            "moduleName": "Transitions",
+            "genericSig": "<τ_0_0 where τ_0_0 : Transitions.Flow>",
+            "sugared_genericSig": "<FlowT where FlowT : Transitions.Flow>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RootTransition",
+                "printedName": "Transitions.RootTransition",
+                "usr": "s:11Transitions14RootTransitionC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11Transitions14RootTransitionCACycfc",
+            "mangledName": "$s11Transitions14RootTransitionCACycfc",
+            "moduleName": "Transitions",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11Transitions14RootTransitionC",
+        "mangledName": "$s11Transitions14RootTransitionC",
+        "moduleName": "Transitions",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "superclassUsr": "s:11Transitions14BaseTransitionC",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "Transitions.BaseTransition"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transition",
+            "printedName": "Transition",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ParametersT",
+                "printedName": "ParametersT",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:11Transitions10TransitionP",
+            "mangledName": "$s11Transitions10TransitionP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Transition",
+        "printedName": "Transition",
+        "children": [
+          {
+            "kind": "AssociatedType",
+            "name": "ParametersT",
+            "printedName": "ParametersT",
+            "declKind": "AssociatedType",
+            "usr": "s:11Transitions10TransitionP11ParametersTQa",
+            "mangledName": "$s11Transitions10TransitionP11ParametersTQa",
+            "moduleName": "Transitions",
+            "protocolReq": true
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(flow:params:coordinator:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.ParametersT"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MainCoordinator",
+                "printedName": "Transitions.MainCoordinator",
+                "usr": "s:11Transitions15MainCoordinatorC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Transitions10TransitionP6handle4flow6params11coordinatoryqd___11ParametersTQzAA15MainCoordinatorCtAA4FlowRd__lF",
+            "mangledName": "$s11Transitions10TransitionP6handle4flow6params11coordinatoryqd___11ParametersTQzAA15MainCoordinatorCtAA4FlowRd__lF",
+            "moduleName": "Transitions",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : Transitions.Transition, τ_1_0 : Transitions.Flow>",
+            "sugared_genericSig": "<Self, FlowT where Self : Transitions.Transition, FlowT : Transitions.Flow>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11Transitions10TransitionP",
+        "mangledName": "$s11Transitions10TransitionP",
+        "moduleName": "Transitions",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BaseTransition",
+        "printedName": "BaseTransition",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "push",
+            "printedName": "push",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PushTransition",
+                "printedName": "Transitions.PushTransition",
+                "usr": "s:11Transitions14PushTransitionC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11Transitions14BaseTransitionC4pushAA04PushC0CvpZ",
+            "mangledName": "$s11Transitions14BaseTransitionC4pushAA04PushC0CvpZ",
+            "moduleName": "Transitions",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Final",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PushTransition",
+                    "printedName": "Transitions.PushTransition",
+                    "usr": "s:11Transitions14PushTransitionC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11Transitions14BaseTransitionC4pushAA04PushC0CvgZ",
+                "mangledName": "$s11Transitions14BaseTransitionC4pushAA04PushC0CvgZ",
+                "moduleName": "Transitions",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "modal",
+            "printedName": "modal",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModalTransition",
+                "printedName": "Transitions.ModalTransition",
+                "usr": "s:11Transitions15ModalTransitionC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11Transitions14BaseTransitionC5modalAA05ModalC0CvpZ",
+            "mangledName": "$s11Transitions14BaseTransitionC5modalAA05ModalC0CvpZ",
+            "moduleName": "Transitions",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Final",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModalTransition",
+                    "printedName": "Transitions.ModalTransition",
+                    "usr": "s:11Transitions15ModalTransitionC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11Transitions14BaseTransitionC5modalAA05ModalC0CvgZ",
+                "mangledName": "$s11Transitions14BaseTransitionC5modalAA05ModalC0CvgZ",
+                "moduleName": "Transitions",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "root",
+            "printedName": "root",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RootTransition",
+                "printedName": "Transitions.RootTransition",
+                "usr": "s:11Transitions14RootTransitionC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11Transitions14BaseTransitionC4rootAA04RootC0CvpZ",
+            "mangledName": "$s11Transitions14BaseTransitionC4rootAA04RootC0CvpZ",
+            "moduleName": "Transitions",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Final",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RootTransition",
+                    "printedName": "Transitions.RootTransition",
+                    "usr": "s:11Transitions14RootTransitionC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11Transitions14BaseTransitionC4rootAA04RootC0CvgZ",
+                "mangledName": "$s11Transitions14BaseTransitionC4rootAA04RootC0CvgZ",
+                "moduleName": "Transitions",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "inTabBar",
+            "printedName": "inTabBar",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InTabBarTransition",
+                "printedName": "Transitions.InTabBarTransition",
+                "usr": "s:11Transitions18InTabBarTransitionC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11Transitions14BaseTransitionC8inTabBarAA02InefC0CvpZ",
+            "mangledName": "$s11Transitions14BaseTransitionC8inTabBarAA02InefC0CvpZ",
+            "moduleName": "Transitions",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Final",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InTabBarTransition",
+                    "printedName": "Transitions.InTabBarTransition",
+                    "usr": "s:11Transitions18InTabBarTransitionC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11Transitions14BaseTransitionC8inTabBarAA02InefC0CvgZ",
+                "mangledName": "$s11Transitions14BaseTransitionC8inTabBarAA02InefC0CvgZ",
+                "moduleName": "Transitions",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BaseTransition",
+                "printedName": "Transitions.BaseTransition",
+                "usr": "s:11Transitions14BaseTransitionC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11Transitions14BaseTransitionCACycfc",
+            "mangledName": "$s11Transitions14BaseTransitionCACycfc",
+            "moduleName": "Transitions",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11Transitions14BaseTransitionC",
+        "mangledName": "$s11Transitions14BaseTransitionC",
+        "moduleName": "Transitions",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Flow",
+        "printedName": "Flow",
+        "children": [
+          {
+            "kind": "AssociatedType",
+            "name": "Injection",
+            "printedName": "Injection",
+            "declKind": "AssociatedType",
+            "usr": "s:11Transitions4FlowP9InjectionQa",
+            "mangledName": "$s11Transitions4FlowP9InjectionQa",
+            "moduleName": "Transitions",
+            "protocolReq": true
+          },
+          {
+            "kind": "AssociatedType",
+            "name": "FlowInput",
+            "printedName": "FlowInput",
+            "declKind": "AssociatedType",
+            "usr": "s:11Transitions4FlowP0B5InputQa",
+            "mangledName": "$s11Transitions4FlowP0B5InputQa",
+            "moduleName": "Transitions",
+            "protocolReq": true
+          },
+          {
+            "kind": "Var",
+            "name": "coordinator",
+            "printedName": "coordinator",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Coordinator",
+                "printedName": "any Transitions.Coordinator",
+                "usr": "s:11Transitions11CoordinatorP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11Transitions4FlowP11coordinatorAA11Coordinator_pvp",
+            "mangledName": "$s11Transitions4FlowP11coordinatorAA11Coordinator_pvp",
+            "moduleName": "Transitions",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinator",
+                    "printedName": "any Transitions.Coordinator",
+                    "usr": "s:11Transitions11CoordinatorP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11Transitions4FlowP11coordinatorAA11Coordinator_pvg",
+                "mangledName": "$s11Transitions4FlowP11coordinatorAA11Coordinator_pvg",
+                "moduleName": "Transitions",
+                "genericSig": "<τ_0_0 where τ_0_0 : Transitions.Flow>",
+                "sugared_genericSig": "<Self where Self : Transitions.Flow>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coordinator:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Coordinator",
+                "printedName": "any Transitions.Coordinator",
+                "usr": "s:11Transitions11CoordinatorP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11Transitions4FlowP11coordinatorxAA11Coordinator_p_tcfc",
+            "mangledName": "$s11Transitions4FlowP11coordinatorxAA11Coordinator_p_tcfc",
+            "moduleName": "Transitions",
+            "genericSig": "<τ_0_0 where τ_0_0 : Transitions.Flow>",
+            "sugared_genericSig": "<Self where Self : Transitions.Flow>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(injection:transitionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.FlowInput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.Injection"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TransitionHandler",
+                "printedName": "any Transitions.TransitionHandler",
+                "usr": "s:11Transitions17TransitionHandlerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Transitions4FlowP5start9injection17transitionHandler0B5InputQz9InjectionQz_AA010TransitionF0_ptF",
+            "mangledName": "$s11Transitions4FlowP5start9injection17transitionHandler0B5InputQz9InjectionQz_AA010TransitionF0_ptF",
+            "moduleName": "Transitions",
+            "genericSig": "<τ_0_0 where τ_0_0 : Transitions.Flow>",
+            "sugared_genericSig": "<Self where Self : Transitions.Flow>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11Transitions4FlowP",
+        "mangledName": "$s11Transitions4FlowP",
+        "moduleName": "Transitions",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FlowInput",
+        "printedName": "FlowInput",
+        "declKind": "Protocol",
+        "usr": "s:11Transitions9FlowInputP",
+        "mangledName": "$s11Transitions9FlowInputP",
+        "moduleName": "Transitions",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Transitions",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PresentationMode",
+        "printedName": "PresentationMode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "modal",
+            "printedName": "modal",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Transitions.PresentationMode.Type) -> Transitions.PresentationMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PresentationMode",
+                    "printedName": "Transitions.PresentationMode",
+                    "usr": "s:11Transitions16PresentationModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Transitions.PresentationMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PresentationMode",
+                        "printedName": "Transitions.PresentationMode",
+                        "usr": "s:11Transitions16PresentationModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11Transitions16PresentationModeO5modalyA2CmF",
+            "mangledName": "$s11Transitions16PresentationModeO5modalyA2CmF",
+            "moduleName": "Transitions"
+          },
+          {
+            "kind": "Var",
+            "name": "push",
+            "printedName": "push",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Transitions.PresentationMode.Type) -> Transitions.PresentationMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PresentationMode",
+                    "printedName": "Transitions.PresentationMode",
+                    "usr": "s:11Transitions16PresentationModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Transitions.PresentationMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PresentationMode",
+                        "printedName": "Transitions.PresentationMode",
+                        "usr": "s:11Transitions16PresentationModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11Transitions16PresentationModeO4pushyA2CmF",
+            "mangledName": "$s11Transitions16PresentationModeO4pushyA2CmF",
+            "moduleName": "Transitions"
+          },
+          {
+            "kind": "Var",
+            "name": "root",
+            "printedName": "root",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Transitions.PresentationMode.Type) -> Transitions.PresentationMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PresentationMode",
+                    "printedName": "Transitions.PresentationMode",
+                    "usr": "s:11Transitions16PresentationModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Transitions.PresentationMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PresentationMode",
+                        "printedName": "Transitions.PresentationMode",
+                        "usr": "s:11Transitions16PresentationModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11Transitions16PresentationModeO4rootyA2CmF",
+            "mangledName": "$s11Transitions16PresentationModeO4rootyA2CmF",
+            "moduleName": "Transitions"
+          },
+          {
+            "kind": "Var",
+            "name": "inTabBar",
+            "printedName": "inTabBar",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Transitions.PresentationMode.Type) -> Transitions.PresentationMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PresentationMode",
+                    "printedName": "Transitions.PresentationMode",
+                    "usr": "s:11Transitions16PresentationModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Transitions.PresentationMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PresentationMode",
+                        "printedName": "Transitions.PresentationMode",
+                        "usr": "s:11Transitions16PresentationModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11Transitions16PresentationModeO8inTabBaryA2CmF",
+            "mangledName": "$s11Transitions16PresentationModeO8inTabBaryA2CmF",
+            "moduleName": "Transitions"
+          },
+          {
+            "kind": "Var",
+            "name": "custom",
+            "printedName": "custom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Transitions.PresentationMode.Type) -> Transitions.PresentationMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PresentationMode",
+                    "printedName": "Transitions.PresentationMode",
+                    "usr": "s:11Transitions16PresentationModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Transitions.PresentationMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PresentationMode",
+                        "printedName": "Transitions.PresentationMode",
+                        "usr": "s:11Transitions16PresentationModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11Transitions16PresentationModeO6customyA2CmF",
+            "mangledName": "$s11Transitions16PresentationModeO6customyA2CmF",
+            "moduleName": "Transitions"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PresentationMode",
+                "printedName": "Transitions.PresentationMode",
+                "usr": "s:11Transitions16PresentationModeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PresentationMode",
+                "printedName": "Transitions.PresentationMode",
+                "usr": "s:11Transitions16PresentationModeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Transitions16PresentationModeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11Transitions16PresentationModeO2eeoiySbAC_ACtFZ",
+            "moduleName": "Transitions",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11Transitions16PresentationModeO9hashValueSivp",
+            "mangledName": "$s11Transitions16PresentationModeO9hashValueSivp",
+            "moduleName": "Transitions",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11Transitions16PresentationModeO9hashValueSivg",
+                "mangledName": "$s11Transitions16PresentationModeO9hashValueSivg",
+                "moduleName": "Transitions",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Transitions16PresentationModeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s11Transitions16PresentationModeO4hash4intoys6HasherVz_tF",
+            "moduleName": "Transitions",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11Transitions16PresentationModeO",
+        "mangledName": "$s11Transitions16PresentationModeO",
+        "moduleName": "Transitions",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Frame",
+        "printedName": "Frame",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "viewController",
+            "printedName": "viewController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UIViewController?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11Transitions5FrameC14viewControllerSo06UIViewD0CSgvp",
+            "mangledName": "$s11Transitions5FrameC14viewControllerSo06UIViewD0CSgvp",
+            "moduleName": "Transitions",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11Transitions5FrameC14viewControllerSo06UIViewD0CSgvg",
+                "mangledName": "$s11Transitions5FrameC14viewControllerSo06UIViewD0CSgvg",
+                "moduleName": "Transitions",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11Transitions5FrameC14viewControllerSo06UIViewD0CSgvs",
+                "mangledName": "$s11Transitions5FrameC14viewControllerSo06UIViewD0CSgvs",
+                "moduleName": "Transitions",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11Transitions5FrameC14viewControllerSo06UIViewD0CSgvM",
+                "mangledName": "$s11Transitions5FrameC14viewControllerSo06UIViewD0CSgvM",
+                "moduleName": "Transitions",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(flow:presentationMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Frame",
+                "printedName": "Transitions.Frame",
+                "usr": "s:11Transitions5FrameC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PresentationMode",
+                "printedName": "Transitions.PresentationMode",
+                "usr": "s:11Transitions16PresentationModeO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11Transitions5FrameC4flow16presentationModeACx_AA012PresentationE0OtcAA4FlowRzlufc",
+            "mangledName": "$s11Transitions5FrameC4flow16presentationModeACx_AA012PresentationE0OtcAA4FlowRzlufc",
+            "moduleName": "Transitions",
+            "genericSig": "<τ_0_0 where τ_0_0 : Transitions.Flow>",
+            "sugared_genericSig": "<FlowT where FlowT : Transitions.Flow>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(flow:viewController:presentationMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Frame",
+                "printedName": "Transitions.Frame",
+                "usr": "s:11Transitions5FrameC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PresentationMode",
+                "printedName": "Transitions.PresentationMode",
+                "usr": "s:11Transitions16PresentationModeO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11Transitions5FrameC4flow14viewController16presentationModeACx_So06UIViewE0CAA012PresentationG0OtcAA4FlowRzlufc",
+            "mangledName": "$s11Transitions5FrameC4flow14viewController16presentationModeACx_So06UIViewE0CAA012PresentationG0OtcAA4FlowRzlufc",
+            "moduleName": "Transitions",
+            "genericSig": "<τ_0_0 where τ_0_0 : Transitions.Flow>",
+            "sugared_genericSig": "<FlowT where FlowT : Transitions.Flow>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "visibleViewController",
+            "printedName": "visibleViewController()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Transitions5FrameC21visibleViewControllerSo06UIViewE0CSgyF",
+            "mangledName": "$s11Transitions5FrameC21visibleViewControllerSo06UIViewE0CSgyF",
+            "moduleName": "Transitions",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11Transitions5FrameC11descriptionSSvp",
+            "mangledName": "$s11Transitions5FrameC11descriptionSSvp",
+            "moduleName": "Transitions",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11Transitions5FrameC11descriptionSSvg",
+                "mangledName": "$s11Transitions5FrameC11descriptionSSvg",
+                "moduleName": "Transitions",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11Transitions5FrameC",
+        "mangledName": "$s11Transitions5FrameC",
+        "moduleName": "Transitions",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Transitions",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InTabBarTransition",
+        "printedName": "InTabBarTransition",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(flow:params:coordinator:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(UIKit.UIViewController, UIKit.UIImage?)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MainCoordinator",
+                "printedName": "Transitions.MainCoordinator",
+                "usr": "s:11Transitions15MainCoordinatorC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Transitions18InTabBarTransitionC6handle4flow6params11coordinatoryx_So16UIViewControllerC_So7UIImageCSgtAA15MainCoordinatorCtAA4FlowRzlF",
+            "mangledName": "$s11Transitions18InTabBarTransitionC6handle4flow6params11coordinatoryx_So16UIViewControllerC_So7UIImageCSgtAA15MainCoordinatorCtAA4FlowRzlF",
+            "moduleName": "Transitions",
+            "genericSig": "<τ_0_0 where τ_0_0 : Transitions.Flow>",
+            "sugared_genericSig": "<FlowT where FlowT : Transitions.Flow>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InTabBarTransition",
+                "printedName": "Transitions.InTabBarTransition",
+                "usr": "s:11Transitions18InTabBarTransitionC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11Transitions18InTabBarTransitionCACycfc",
+            "mangledName": "$s11Transitions18InTabBarTransitionCACycfc",
+            "moduleName": "Transitions",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11Transitions18InTabBarTransitionC",
+        "mangledName": "$s11Transitions18InTabBarTransitionC",
+        "moduleName": "Transitions",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "superclassUsr": "s:11Transitions14BaseTransitionC",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "Transitions.BaseTransition"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transition",
+            "printedName": "Transition",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ParametersT",
+                "printedName": "ParametersT",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(UIKit.UIViewController, UIKit.UIImage?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "UIKit.UIImage?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIImage",
+                            "printedName": "UIKit.UIImage",
+                            "usr": "c:objc(cs)UIImage"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:11Transitions10TransitionP",
+            "mangledName": "$s11Transitions10TransitionP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Transitions",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Coordinator",
+        "printedName": "Coordinator",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "launch",
+            "printedName": "launch(rootFlowType:injection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_1_0.FlowInput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_1_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_1_0.Injection"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Transitions11CoordinatorP6launch12rootFlowType9injection0E5InputQyd__qd__m_9InjectionQyd__tAA0E0Rd__lF",
+            "mangledName": "$s11Transitions11CoordinatorP6launch12rootFlowType9injection0E5InputQyd__qd__m_9InjectionQyd__tAA0E0Rd__lF",
+            "moduleName": "Transitions",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : Transitions.Coordinator, τ_1_0 : Transitions.Flow>",
+            "sugared_genericSig": "<Self, FlowT where Self : Transitions.Coordinator, FlowT : Transitions.Flow>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show(_:injection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_1_0.FlowInput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_1_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_1_0.Injection"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Transitions11CoordinatorP4show_9injection9FlowInputQyd__qd__m_9InjectionQyd__tAA0E0Rd__lF",
+            "mangledName": "$s11Transitions11CoordinatorP4show_9injection9FlowInputQyd__qd__m_9InjectionQyd__tAA0E0Rd__lF",
+            "moduleName": "Transitions",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : Transitions.Coordinator, τ_1_0 : Transitions.Flow>",
+            "sugared_genericSig": "<Self, FlowT where Self : Transitions.Coordinator, FlowT : Transitions.Flow>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_1_0.FlowInput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_1_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Transitions11CoordinatorP4showy9FlowInputQyd__qd__mAA0D0Rd__yt9InjectionRtd__lF",
+            "mangledName": "$s11Transitions11CoordinatorP4showy9FlowInputQyd__qd__mAA0D0Rd__yt9InjectionRtd__lF",
+            "moduleName": "Transitions",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : Transitions.Coordinator, τ_1_0 : Transitions.Flow, τ_1_0.Injection == ()>",
+            "sugared_genericSig": "<Self, FlowT where Self : Transitions.Coordinator, FlowT : Transitions.Flow, FlowT.Injection == ()>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFinish",
+            "printedName": "didFinish(flow:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "AnyObject"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Transitions11CoordinatorP9didFinish4flowyyXl_tF",
+            "mangledName": "$s11Transitions11CoordinatorP9didFinish4flowyyXl_tF",
+            "moduleName": "Transitions",
+            "genericSig": "<τ_0_0 where τ_0_0 : Transitions.Coordinator>",
+            "sugared_genericSig": "<Self where Self : Transitions.Coordinator>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11Transitions11CoordinatorP",
+        "mangledName": "$s11Transitions11CoordinatorP",
+        "moduleName": "Transitions",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MainCoordinator",
+        "printedName": "MainCoordinator",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MainCoordinator",
+                "printedName": "Transitions.MainCoordinator",
+                "usr": "s:11Transitions15MainCoordinatorC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11Transitions15MainCoordinatorCACycfc",
+            "mangledName": "$s11Transitions15MainCoordinatorCACycfc",
+            "moduleName": "Transitions",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "launch",
+            "printedName": "launch(rootFlowType:injection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.FlowInput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.Injection"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Transitions15MainCoordinatorC6launch12rootFlowType9injection0F5InputQzxm_9InjectionQztAA0F0RzlF",
+            "mangledName": "$s11Transitions15MainCoordinatorC6launch12rootFlowType9injection0F5InputQzxm_9InjectionQztAA0F0RzlF",
+            "moduleName": "Transitions",
+            "genericSig": "<τ_0_0 where τ_0_0 : Transitions.Flow>",
+            "sugared_genericSig": "<FlowT where FlowT : Transitions.Flow>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show(_:injection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.FlowInput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.Injection"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Transitions15MainCoordinatorC4show_9injection9FlowInputQzxm_9InjectionQztAA0F0RzlF",
+            "mangledName": "$s11Transitions15MainCoordinatorC4show_9injection9FlowInputQzxm_9InjectionQztAA0F0RzlF",
+            "moduleName": "Transitions",
+            "genericSig": "<τ_0_0 where τ_0_0 : Transitions.Flow>",
+            "sugared_genericSig": "<FlowT where FlowT : Transitions.Flow>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.FlowInput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Transitions15MainCoordinatorC4showy9FlowInputQzxmAA0E0Rzyt9InjectionRtzlF",
+            "mangledName": "$s11Transitions15MainCoordinatorC4showy9FlowInputQzxmAA0E0Rzyt9InjectionRtzlF",
+            "moduleName": "Transitions",
+            "genericSig": "<τ_0_0 where τ_0_0 : Transitions.Flow, τ_0_0.Injection == ()>",
+            "sugared_genericSig": "<FlowT where FlowT : Transitions.Flow, FlowT.Injection == ()>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFinish",
+            "printedName": "didFinish(flow:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "AnyObject"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Transitions15MainCoordinatorC9didFinish4flowyyXl_tF",
+            "mangledName": "$s11Transitions15MainCoordinatorC9didFinish4flowyyXl_tF",
+            "moduleName": "Transitions",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cleanStack",
+            "printedName": "cleanStack()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Transitions15MainCoordinatorC10cleanStackyyF",
+            "mangledName": "$s11Transitions15MainCoordinatorC10cleanStackyyF",
+            "moduleName": "Transitions",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "append",
+            "printedName": "append(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Frame",
+                "printedName": "Transitions.Frame",
+                "usr": "s:11Transitions5FrameC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Transitions15MainCoordinatorC6append5frameyAA5FrameC_tF",
+            "mangledName": "$s11Transitions15MainCoordinatorC6append5frameyAA5FrameC_tF",
+            "moduleName": "Transitions",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "lastVisibleFrame",
+            "printedName": "lastVisibleFrame()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Frame",
+                "printedName": "Transitions.Frame",
+                "usr": "s:11Transitions5FrameC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Transitions15MainCoordinatorC16lastVisibleFrameAA0F0CyF",
+            "mangledName": "$s11Transitions15MainCoordinatorC16lastVisibleFrameAA0F0CyF",
+            "moduleName": "Transitions",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recentFrame",
+            "printedName": "recentFrame(of:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Frame",
+                "printedName": "Transitions.Frame",
+                "usr": "s:11Transitions5FrameC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PresentationMode",
+                "printedName": "Transitions.PresentationMode",
+                "usr": "s:11Transitions16PresentationModeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Transitions15MainCoordinatorC11recentFrame2ofAA0E0CAA16PresentationModeO_tF",
+            "mangledName": "$s11Transitions15MainCoordinatorC11recentFrame2ofAA0E0CAA16PresentationModeO_tF",
+            "moduleName": "Transitions",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "present",
+            "printedName": "present(flow:transition:params:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_2"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_1"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Transitions15MainCoordinatorC7present4flow10transition6paramsyq0__xq_tAA14BaseTransitionCRbzAA0I0Rz11ParametersTQzRs_AA4FlowR0_r1_lF",
+            "mangledName": "$s11Transitions15MainCoordinatorC7present4flow10transition6paramsyq0__xq_tAA14BaseTransitionCRbzAA0I0Rz11ParametersTQzRs_AA4FlowR0_r1_lF",
+            "moduleName": "Transitions",
+            "genericSig": "<τ_0_0, τ_0_1, τ_0_2 where τ_0_0 : Transitions.BaseTransition, τ_0_0 : Transitions.Transition, τ_0_1 == τ_0_0.ParametersT, τ_0_2 : Transitions.Flow>",
+            "sugared_genericSig": "<TransitionT, ParametersT, FlowT where TransitionT : Transitions.BaseTransition, TransitionT : Transitions.Transition, ParametersT == TransitionT.ParametersT, FlowT : Transitions.Flow>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11Transitions15MainCoordinatorC",
+        "mangledName": "$s11Transitions15MainCoordinatorC",
+        "moduleName": "Transitions",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TransitionHandler",
+            "printedName": "TransitionHandler",
+            "usr": "s:11Transitions17TransitionHandlerP",
+            "mangledName": "$s11Transitions17TransitionHandlerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Coordinator",
+            "printedName": "Coordinator",
+            "usr": "s:11Transitions11CoordinatorP",
+            "mangledName": "$s11Transitions11CoordinatorP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TransitionHandler",
+        "printedName": "TransitionHandler",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "present",
+            "printedName": "present(flow:transition:params:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_2"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_1"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Transitions17TransitionHandlerP7present4flow10transition6paramsyqd_1__qd__qd_0_tAA04BaseB0CRbd__AA0B0Rd__11ParametersTQyd__Rsd_0_AA4FlowRd_1_r1_lF",
+            "mangledName": "$s11Transitions17TransitionHandlerP7present4flow10transition6paramsyqd_1__qd__qd_0_tAA04BaseB0CRbd__AA0B0Rd__11ParametersTQyd__Rsd_0_AA4FlowRd_1_r1_lF",
+            "moduleName": "Transitions",
+            "genericSig": "<τ_0_0, τ_1_0, τ_1_1, τ_1_2 where τ_0_0 : Transitions.TransitionHandler, τ_1_0 : Transitions.BaseTransition, τ_1_0 : Transitions.Transition, τ_1_1 == τ_1_0.ParametersT, τ_1_2 : Transitions.Flow>",
+            "sugared_genericSig": "<Self, TransitionT, ParametersT, FlowT where Self : Transitions.TransitionHandler, TransitionT : Transitions.BaseTransition, TransitionT : Transitions.Transition, ParametersT == TransitionT.ParametersT, FlowT : Transitions.Flow>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11Transitions17TransitionHandlerP",
+        "mangledName": "$s11Transitions17TransitionHandlerP",
+        "moduleName": "Transitions",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/max\/Desktop\/ororo_playground\/ororo-tv-player\/Carthage\/Checkouts\/Transitions\/Transitions\/Transitions\/Coordinator\/Extensions\/NSObject+LifeCycle.swift",
+      "kind": "StringLiteral",
+      "offset": 289,
+      "length": 26,
+      "value": "\"on_deinit_associated_key\""
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+// Shared signing settings for every target in the workspace.
+//
+// Do not put a personal team ID or bundle ID prefix in this file. Copy
+// Local.xcconfig.example to Local.xcconfig (git-ignored) and set your own values
+// there. Without it the project still builds for the tvOS Simulator.
+
+DEVELOPMENT_TEAM =
+BUNDLE_ID_PREFIX = com.example
+
+#include? "Local.xcconfig"

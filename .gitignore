@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.xcresult
+
+# Personal signing settings (see Config/Local.xcconfig.example)
+Config/Local.xcconfig
+
+# Carthage (Transitions ships prebuilt as Ororo-Player/Transitions.xcframework)
+Carthage/

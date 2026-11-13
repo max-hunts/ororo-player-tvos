@@ -1,0 +1,159 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.3.3 effective-5.10 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
+// swift-module-flags: -target arm64-apple-tvos12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Transitions
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
+import Foundation
+import Swift
+@_exported import Transitions
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers final public class LinkedList<T> {
+  public class LinkedListNode<T> {
+    public init(value: T)
+    @objc deinit
+  }
+  public typealias Node = Transitions.LinkedList<T>.LinkedListNode<T>
+  final public var last: Transitions.LinkedList<T>.Node? {
+    get
+  }
+  final public var isEmpty: Swift.Bool {
+    get
+  }
+  final public var count: Swift.Int {
+    get
+  }
+  final public func append(_ value: T)
+  final public func append(_ node: Transitions.LinkedList<T>.Node)
+  final public func append(_ list: Transitions.LinkedList<T>)
+  final public func removeAll()
+  @discardableResult
+  final public func remove(node: Transitions.LinkedList<T>.Node) -> T
+  @objc deinit
+}
+extension Transitions.LinkedList : Swift.CustomStringConvertible {
+  final public var description: Swift.String {
+    get
+  }
+}
+extension Transitions.LinkedList : Swift.Collection {
+  public typealias Index = Transitions.LinkedListIndex<T>
+  final public var startIndex: Transitions.LinkedList<T>.Index {
+    get
+  }
+  final public var endIndex: Transitions.LinkedList<T>.Index {
+    get
+  }
+  final public subscript(position: Transitions.LinkedList<T>.Index) -> T {
+    get
+  }
+  final public func index(after idx: Transitions.LinkedList<T>.Index) -> Transitions.LinkedList<T>.Index
+  public typealias Element = T
+  public typealias Indices = Swift.DefaultIndices<Transitions.LinkedList<T>>
+  public typealias Iterator = Swift.IndexingIterator<Transitions.LinkedList<T>>
+  public typealias SubSequence = Swift.Slice<Transitions.LinkedList<T>>
+}
+public struct LinkedListIndex<T> : Swift.Comparable {
+  public static func == <T>(lhs: Transitions.LinkedListIndex<T>, rhs: Transitions.LinkedListIndex<T>) -> Swift.Bool
+  public static func < <T>(lhs: Transitions.LinkedListIndex<T>, rhs: Transitions.LinkedListIndex<T>) -> Swift.Bool
+}
+@_inheritsConvenienceInitializers final public class ModalTransition : Transitions.BaseTransition, Transitions.Transition {
+  final public func handle<FlowT>(flow: FlowT, params: UIKit.UIViewController, coordinator: Transitions.MainCoordinator) where FlowT : Transitions.Flow
+  override public init()
+  public typealias ParametersT = UIKit.UIViewController
+  @objc deinit
+}
+@_inheritsConvenienceInitializers final public class PushTransition : Transitions.BaseTransition, Transitions.Transition {
+  final public func handle<FlowT>(flow: FlowT, params: UIKit.UIViewController, coordinator: Transitions.MainCoordinator) where FlowT : Transitions.Flow
+  override public init()
+  public typealias ParametersT = UIKit.UIViewController
+  @objc deinit
+}
+@_inheritsConvenienceInitializers final public class RootTransition : Transitions.BaseTransition, Transitions.Transition {
+  final public func handle<FlowT>(flow: FlowT, params: UIKit.UIViewController, coordinator: Transitions.MainCoordinator) where FlowT : Transitions.Flow
+  override public init()
+  public typealias ParametersT = UIKit.UIViewController
+  @objc deinit
+}
+public protocol Transition {
+  associatedtype ParametersT
+  func handle<FlowT>(flow: FlowT, params: Self.ParametersT, coordinator: Transitions.MainCoordinator) where FlowT : Transitions.Flow
+}
+open class BaseTransition {
+  public static let push: Transitions.PushTransition
+  public static let modal: Transitions.ModalTransition
+  public static let root: Transitions.RootTransition
+  public static let inTabBar: Transitions.InTabBarTransition
+  public init()
+  @objc deinit
+}
+public protocol Flow : AnyObject {
+  associatedtype Injection
+  associatedtype FlowInput
+  var coordinator: any Transitions.Coordinator { get }
+  init(coordinator: any Transitions.Coordinator)
+  func start(injection: Self.Injection, transitionHandler: any Transitions.TransitionHandler) -> Self.FlowInput
+}
+public protocol FlowInput : AnyObject {
+}
+public enum PresentationMode {
+  case modal
+  case push
+  case root
+  case inTabBar
+  case custom
+  public static func == (a: Transitions.PresentationMode, b: Transitions.PresentationMode) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public class Frame {
+  weak public var viewController: UIKit.UIViewController?
+  public init<FlowT>(flow: FlowT, presentationMode: Transitions.PresentationMode) where FlowT : Transitions.Flow
+  public init<FlowT>(flow: FlowT, viewController: UIKit.UIViewController, presentationMode: Transitions.PresentationMode) where FlowT : Transitions.Flow
+  @objc deinit
+}
+extension Transitions.Frame {
+  public func visibleViewController() -> UIKit.UIViewController?
+}
+extension Transitions.Frame : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+@_inheritsConvenienceInitializers final public class InTabBarTransition : Transitions.BaseTransition, Transitions.Transition {
+  final public func handle<FlowT>(flow: FlowT, params: (UIKit.UIViewController, UIKit.UIImage?), coordinator: Transitions.MainCoordinator) where FlowT : Transitions.Flow
+  override public init()
+  public typealias ParametersT = (UIKit.UIViewController, UIKit.UIImage?)
+  @objc deinit
+}
+public protocol Coordinator {
+  func launch<FlowT>(rootFlowType: FlowT.Type, injection: FlowT.Injection) -> FlowT.FlowInput where FlowT : Transitions.Flow
+  func show<FlowT>(_ flowType: FlowT.Type, injection: FlowT.Injection) -> FlowT.FlowInput where FlowT : Transitions.Flow
+  func show<FlowT>(_ flowType: FlowT.Type) -> FlowT.FlowInput where FlowT : Transitions.Flow, FlowT.Injection == ()
+  func didFinish(flow: Swift.AnyObject)
+}
+public class MainCoordinator : Transitions.Coordinator {
+  public init()
+  public func launch<FlowT>(rootFlowType: FlowT.Type, injection: FlowT.Injection) -> FlowT.FlowInput where FlowT : Transitions.Flow
+  public func show<FlowT>(_ flowType: FlowT.Type, injection: FlowT.Injection) -> FlowT.FlowInput where FlowT : Transitions.Flow
+  public func show<FlowT>(_ flowType: FlowT.Type) -> FlowT.FlowInput where FlowT : Transitions.Flow, FlowT.Injection == ()
+  public func didFinish(flow: Swift.AnyObject)
+  @objc deinit
+}
+extension Transitions.MainCoordinator {
+  public func cleanStack()
+  public func append(frame: Transitions.Frame)
+  public func lastVisibleFrame() -> Transitions.Frame
+  public func recentFrame(of mode: Transitions.PresentationMode) -> Transitions.Frame
+}
+extension Transitions.MainCoordinator : Transitions.TransitionHandler {
+  public func present<TransitionT, ParametersT, FlowT>(flow: FlowT, transition: TransitionT, params: ParametersT) where TransitionT : Transitions.BaseTransition, TransitionT : Transitions.Transition, ParametersT == TransitionT.ParametersT, FlowT : Transitions.Flow
+}
+public protocol TransitionHandler {
+  func present<TransitionT, ParametersT, FlowT>(flow: FlowT, transition: TransitionT, params: ParametersT) where TransitionT : Transitions.BaseTransition, TransitionT : Transitions.Transition, ParametersT == TransitionT.ParametersT, FlowT : Transitions.Flow
+}
+extension Transitions.PresentationMode : Swift.Equatable {}
+extension Transitions.PresentationMode : Swift.Hashable {}
