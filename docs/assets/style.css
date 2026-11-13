@@ -84,7 +84,6 @@ pre code { background: none; padding: 0; font-size: 1em; }
 .site-nav { margin-left: auto; display: flex; align-items: center; gap: 4px; }
 .site-nav a { text-decoration: none; color: var(--muted); padding: 6px 10px; border-radius: 8px; font-size: 15px; }
 .site-nav a:hover { color: var(--text); background: var(--line); }
-.site-nav .lang { border: 1px solid var(--line-strong); color: var(--text); }
 @media (max-width: 560px) {
   .site-nav .opt { display: none; }
 }

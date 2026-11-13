@@ -111,9 +111,9 @@ All list screens are driven by `GenericCollectionViewDataSource<PresenterType: C
 
 ## Website (`docs/`)
 
-`docs/` is the GitHub Pages site (`https://max-hunts.github.io/ororo-player-tvos/`), served from the `main` branch's `/docs` folder. It is plain HTML/CSS with no build step and no JavaScript; `.nojekyll` turns off Jekyll. `docs/index.html` is English and `docs/ru/index.html` is Russian, linked with `hreflang`; both share `docs/assets/style.css` and `docs/sitemap.xml` lists both. `docs/social-preview.jpg` (1280×640) is the Open Graph image, the README hero, and the image to upload as the repo's social preview.
+`docs/` is the GitHub Pages site (`https://max-hunts.github.io/ororo-player-tvos/`), served from the `main` branch's `/docs` folder. It is one English page (`docs/index.html`) of plain HTML/CSS with no build step and no JavaScript; `.nojekyll` turns off Jekyll. Styles are in `docs/assets/style.css`; `docs/sitemap.xml` lists the page. `docs/social-preview.jpg` (1280×640) is the Open Graph image, the README hero, and the image to upload as the repo's social preview.
 
-The features, install steps, and FAQ appear in three places: `README.md` and both pages. When a feature changes, update all three, and bump `<lastmod>` in the sitemap.
+The features, install steps, and FAQ appear in both `README.md` and `docs/index.html`. When a feature changes, update both, and bump `<lastmod>` in the sitemap.
 
 ## Authentication
 

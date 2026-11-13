@@ -9,8 +9,7 @@ with English subtitles, and pick up where you left off.
 [![Platform][platform-badge]][platform-url]
 [![License][mit-badge]][mit-url]
 
-**Website:** [max-hunts.github.io/ororo-player-tvos](https://max-hunts.github.io/ororo-player-tvos/) ·
-[Русская версия](#на-русском)
+**Website:** [max-hunts.github.io/ororo-player-tvos](https://max-hunts.github.io/ororo-player-tvos/)
 
 ![Ororo.tv Player for Apple TV: unofficial, open-source tvOS app for watching Ororo.tv movies and TV shows](docs/social-preview.jpg)
 
@@ -90,17 +89,6 @@ English for now. A subtitle language picker is on the roadmap.
 - [ ] Subtitle language picker.
 - [ ] A queue for episodes.
 - [ ] Let `GenericCollectionViewDataSource` show different kinds of cells on the same screen.
-
-## На русском
-
-**Ororo.tv Player** — неофициальное приложение Ororo.tv для Apple TV (tvOS) с открытым исходным кодом.
-Смотрите фильмы и сериалы Ororo.tv на Apple TV: вход через ваш аккаунт Ororo.tv, поиск по каталогу,
-английские субтитры, избранное, продолжение просмотра с места остановки и выбор качества видео
-(до 4K). Интерфейс приложения переведён на русский язык.
-
-Приложения нет в App Store: его устанавливают на Apple TV с Mac через Xcode (инструкция выше,
-[подробнее на сайте](https://max-hunts.github.io/ororo-player-tvos/ru/#install)). Нужна Apple TV с tvOS 15
-или новее и аккаунт Ororo.tv. Проект не связан с Ororo.tv.
 
 ## Development
 
