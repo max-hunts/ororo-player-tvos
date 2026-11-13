@@ -109,6 +109,12 @@ All list screens are driven by `GenericCollectionViewDataSource<PresenterType: C
 - **Localization**: user-facing strings go through `String.localized()`; localizations exist for `en` and `ru`.
 - **SwiftLint**: `identifier_name`, `force_cast`, and `type_name` rules are disabled; line-length warning is 150. Keep new code lint-clean since CI is `--strict`.
 
+## Website (`docs/`)
+
+`docs/` is the GitHub Pages site (`https://max-hunts.github.io/ororo-player-tvos/`), served from the `main` branch's `/docs` folder. It is plain HTML/CSS with no build step and no JavaScript; `.nojekyll` turns off Jekyll. `docs/index.html` is English and `docs/ru/index.html` is Russian, linked with `hreflang`; both share `docs/assets/style.css` and `docs/sitemap.xml` lists both. `docs/social-preview.jpg` (1280×640) is the Open Graph image, the README hero, and the image to upload as the repo's social preview.
+
+The features, install steps, and FAQ appear in three places: `README.md` and both pages. When a feature changes, update all three, and bump `<lastmod>` in the sitemap.
+
 ## Authentication
 
 Authentication goes through `LoginFlow` + `CredentialsStore`; credentials are sent to ororo.tv as HTTP Basic auth by `RequestBuilder`. You need a valid ororo.tv account to exercise the app against the live API.
