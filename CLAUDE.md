@@ -38,7 +38,7 @@ xcodebuild test -workspace Ororo-Player.xcworkspace -scheme Ororo-KitTests \
 
 Run a single test class or method with `-only-testing:Ororo-KitTests/SubtitleParserTests/testSomeCase`.
 
-Lint (CI runs `--strict`, so warnings fail the build). Config is in `.swiftlint.yml`:
+Lint (CI runs SwiftLint 0.65.1 with `--strict`, so warnings fail the build; the version is pinned in `.github/workflows/ci.yml`). Config is in `.swiftlint.yml`:
 
 ```
 swiftlint lint --strict

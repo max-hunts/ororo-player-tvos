@@ -28,7 +28,7 @@ class SubtitleManager {
     }
 
     func configure(label: UILabel, time: Double) {
-        
+
         guard let subtitleIntervals = subtitleIntervals else { return }
         let subtitleString = SubtitleParser.searchSubtitles(
             payload: subtitleIntervals,

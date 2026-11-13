@@ -40,16 +40,16 @@ class DiffTests: XCTestCase {
         let changes = Diff.diff(old: old, new: new)
 
         let insertions = changes.filter { (op) -> Bool in
-            if case .inserted(_) = op { return true } else { return false }
+            if case .inserted = op { return true } else { return false }
         }
         let deletions = changes.filter { (op) -> Bool in
-            if case .deleted(_) = op { return true } else { return false }
+            if case .deleted = op { return true } else { return false }
         }
         let moves = changes.filter { (op) -> Bool in
-            if case .moved(_) = op { return true } else { return false }
+            if case .moved = op { return true } else { return false }
         }
         let updates = changes.filter { (op) -> Bool in
-            if case .updated(_) = op { return true } else { return false }
+            if case .updated = op { return true } else { return false }
         }
 
         XCTAssert(updates.isEmpty, "Updates must be empty")
@@ -68,16 +68,16 @@ class DiffTests: XCTestCase {
         let changes = Diff.diff(old: old, new: new)
 
         let insertions = changes.filter { (op) -> Bool in
-            if case .inserted(_) = op { return true } else { return false }
+            if case .inserted = op { return true } else { return false }
         }
         let deletions = changes.filter { (op) -> Bool in
-            if case .deleted(_) = op { return true } else { return false }
+            if case .deleted = op { return true } else { return false }
         }
         let moves = changes.filter { (op) -> Bool in
-            if case .moved(_) = op { return true } else { return false }
+            if case .moved = op { return true } else { return false }
         }
         let updates = changes.filter { (op) -> Bool in
-            if case .updated(_) = op { return true } else { return false }
+            if case .updated = op { return true } else { return false }
         }
 
         XCTAssert(updates.isEmpty, "Updates must be empty")
@@ -98,16 +98,16 @@ class DiffTests: XCTestCase {
         let changes = Diff.diff(old: old, new: new)
 
         let insertions = changes.filter { (op) -> Bool in
-            if case .inserted(_) = op { return true } else { return false }
+            if case .inserted = op { return true } else { return false }
         }
         let deletions = changes.filter { (op) -> Bool in
-            if case .deleted(_) = op { return true } else { return false }
+            if case .deleted = op { return true } else { return false }
         }
         let moves = changes.filter { (op) -> Bool in
-            if case .moved(_) = op { return true } else { return false }
+            if case .moved = op { return true } else { return false }
         }
         let updates = changes.filter { (op) -> Bool in
-            if case .updated(_) = op { return true } else { return false }
+            if case .updated = op { return true } else { return false }
         }
 
         XCTAssert(updates.isEmpty, "Updates must be empty")
@@ -128,16 +128,16 @@ class DiffTests: XCTestCase {
         let changes = Diff.diff(old: old, new: new)
 
         let insertions = changes.filter { (op) -> Bool in
-            if case .inserted(_) = op { return true } else { return false }
+            if case .inserted = op { return true } else { return false }
         }
         let deletions = changes.filter { (op) -> Bool in
-            if case .deleted(_) = op { return true } else { return false }
+            if case .deleted = op { return true } else { return false }
         }
         let moves = changes.filter { (op) -> Bool in
-            if case .moved(_) = op { return true } else { return false }
+            if case .moved = op { return true } else { return false }
         }
         let updates = changes.filter { (op) -> Bool in
-            if case .updated(_) = op { return true } else { return false }
+            if case .updated = op { return true } else { return false }
         }
         XCTAssert(updates.isEmpty)
 
@@ -158,16 +158,16 @@ class DiffTests: XCTestCase {
         let changes = Diff.diff(old: old, new: new)
 
         let insertions = changes.filter { (op) -> Bool in
-            if case .inserted(_) = op { return true } else { return false }
+            if case .inserted = op { return true } else { return false }
         }
         let deletions = changes.filter { (op) -> Bool in
-            if case .deleted(_) = op { return true } else { return false }
+            if case .deleted = op { return true } else { return false }
         }
         let moves = changes.filter { (op) -> Bool in
-            if case .moved(_) = op { return true } else { return false }
+            if case .moved = op { return true } else { return false }
         }
         let updates = changes.filter { (op) -> Bool in
-            if case .updated(_) = op { return true } else { return false }
+            if case .updated = op { return true } else { return false }
         }
         XCTAssert(updates.isEmpty)
         XCTAssert(insertions.isEmpty)
@@ -184,16 +184,16 @@ class DiffTests: XCTestCase {
         let changes = Diff.diff(old: old, new: new)
 
         let insertions = changes.filter { (op) -> Bool in
-            if case .inserted(_) = op { return true } else { return false }
+            if case .inserted = op { return true } else { return false }
         }
         let deletions = changes.filter { (op) -> Bool in
-            if case .deleted(_) = op { return true } else { return false }
+            if case .deleted = op { return true } else { return false }
         }
         let moves = changes.filter { (op) -> Bool in
-            if case .moved(_) = op { return true } else { return false }
+            if case .moved = op { return true } else { return false }
         }
         let updates = changes.filter { (op) -> Bool in
-            if case .updated(_) = op { return true } else { return false }
+            if case .updated = op { return true } else { return false }
         }
 
         XCTAssert(insertions.isEmpty)

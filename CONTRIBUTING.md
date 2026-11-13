@@ -15,7 +15,7 @@ You need an Ororo.tv account to sign in and exercise the app.
 
 ## Before opening a pull request
 
-- `swiftlint lint --strict` passes (CI fails on warnings).
+- `swiftlint lint --strict` passes (CI pins SwiftLint 0.65.1 and fails on warnings).
 - `Ororo-KitTests` pass on a tvOS simulator.
 - New user-facing strings go through `String.localized()` and are added to both `en` and `ru`
   `Localizable.strings`. If you can't write the Russian string, add the English text and say so

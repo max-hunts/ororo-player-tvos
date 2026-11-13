@@ -54,11 +54,9 @@ public final class RequestBuilder {
         }
 
         if let credentials = credentials {
-            if let data = "\(credentials.username):\(credentials.password)".data(using: .utf8) {
-                let credential = data.base64EncodedString(options: [])
-                request.setValue("Basic \(credential)",
-                    forHTTPHeaderField: "Authorization")
-            }
+            let data = Data("\(credentials.username):\(credentials.password)".utf8)
+            request.setValue("Basic \(data.base64EncodedString())",
+                             forHTTPHeaderField: "Authorization")
         }
 
         return request

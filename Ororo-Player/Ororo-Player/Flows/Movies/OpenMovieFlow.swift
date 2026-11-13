@@ -24,7 +24,7 @@ final class OpenMovieFlow: Flow {
     init(coordinator: Coordinator) {
         self.coordinator = coordinator
     }
-    
+
     func start(
         injection: Injection,
         transitionHandler: TransitionHandler

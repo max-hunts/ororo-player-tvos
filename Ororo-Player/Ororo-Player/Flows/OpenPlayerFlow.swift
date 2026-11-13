@@ -149,7 +149,7 @@ final class OpenPlayerFlow: Flow {
             params: playerViewController
         )
     }
-    
+
     private func load(
         subtitles: [Subtitle],
         for lang: String,

@@ -58,7 +58,7 @@ final class VideoPlayerManager {
     private(set) var qualityCap: QualityCap = .auto
 
     /// The caps this item's variant ladder can honor; all of them until the
-    /// master playlist has been inspected.
+    /// multivariant playlist has been inspected.
     private(set) var availableCaps: [QualityCap] = QualityCap.allCases
 
     /// The cap to present as selected: a persisted cap above this item's
@@ -106,10 +106,10 @@ final class VideoPlayerManager {
         player.currentItem?.preferredMaximumResolution = cap.maximumResolution
     }
 
-    /// Extracts the caps supported by an HLS master playlist from its
+    /// Extracts the caps supported by an HLS multivariant playlist from its
     /// `#EXT-X-STREAM-INF` variants, e.g. `RESOLUTION=2000x1080`. Returns all
     /// caps when no resolutions can be found.
-    static func availableCaps(inMasterPlaylist playlist: String) -> [QualityCap] {
+    static func availableCaps(inMultivariantPlaylist playlist: String) -> [QualityCap] {
         var maxHeight = 0
         let regex = try? NSRegularExpression(pattern: "RESOLUTION=\\d+x(\\d+)")
         let range = NSRange(playlist.startIndex..., in: playlist)
@@ -129,7 +129,7 @@ final class VideoPlayerManager {
         URLSession.shared.dataTask(with: url) { [weak self] (data, _, _) in
             guard let data = data,
                 let playlist = String(data: data, encoding: .utf8) else { return }
-            let caps = VideoPlayerManager.availableCaps(inMasterPlaylist: playlist)
+            let caps = VideoPlayerManager.availableCaps(inMultivariantPlaylist: playlist)
             DispatchQueue.main.async {
                 self?.availableCaps = caps
                 self?.onAvailableCapsChange?()
@@ -160,7 +160,7 @@ final class VideoPlayerManager {
         player.addPeriodicTimeObserver(
             forInterval: CMTimeMake(value: period, timescale: 1),
             queue: DispatchQueue.main,
-            using: { (time) -> Void in
+            using: { (time) in
                 let p = CMTimeGetSeconds(time)
                 let d: Float64
                 if let duration = self.player.currentItem?.asset.duration {
